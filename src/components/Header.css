@@ -1,0 +1,74 @@
+.header {
+  height: 110px;
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  width: 100px;
+  height: 70px;
+  display: block;
+  margin: 0 63px 0 0;
+}
+
+.header__navigation {
+  width: 100%;
+  display: flex;
+}
+
+.navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation__item {
+  margin: 0 40px 0 0;
+  height: 110px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+
+.navigation__item:nth-child(4) {
+  margin: 0 67px 0 0;
+}
+
+.navigation__item:last-child {
+  margin: 0 0 0 0;
+}
+
+.navigation__icon {
+  margin: 0 9px 0 0;
+}
+
+.navigation__link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.navigation__link:hover {
+  text-decoration: underline;
+}
+
+.navigation__link_city {
+  display: flex;
+  align-items: flex-end;
+}
+
+.navigation__link_city::after {
+  content: '';
+  margin: 0 0 0 10px;
+  display: block;
+  width: 9px;
+  height: 9px;
+  background-image: url('../img/city_arrow.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
