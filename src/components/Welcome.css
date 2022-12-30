@@ -1,0 +1,62 @@
+.welcome {
+  width: 100%;
+  height: 480px;
+  background-image: url(../img/slider.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.welcome__content {
+  padding: 0 80px 0 0;
+  width: 53%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  background: radial-gradient(#27AAE140 5%, transparent 20%) 0px 0px, radial-gradient(#27AAE140 1%, transparent 1%) 75px 75px;
+
+  background-color: #00093C;
+  background-size: 10px 10px;
+}
+
+.welcome__wrap {
+  width: 600px;
+}
+
+.welcome__title {
+  padding: 10px 0 10px 20px;
+  margin: 0;
+  font-size: 36px;
+  line-height: 44px;
+  display: inline-block;
+  color: #ffffff;
+  background-color: #00093C;
+}
+
+.welcome__name {
+  padding: 10px 0 10px 20px;
+  margin: 0 0 40px 0;
+  display: inline-block;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+  background-color: #00093C;
+
+}
+
+.welcome__description {
+  padding: 10px 0 10px 20px;
+  margin: 0;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #00093C;
+
+}
